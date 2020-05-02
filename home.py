@@ -444,6 +444,6 @@ def addSalDb(frm,*e):
 		msg.showinfo('Info','New Salesman will be added')
 		welcomeAdmin(frm)
 	
-	
-home()
+if(__name__=='__main__'):	
+	home()
 root.mainloop()
